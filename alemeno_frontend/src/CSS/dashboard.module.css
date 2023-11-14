@@ -1,0 +1,101 @@
+.dashboard {
+  width: 70%;
+  height: 400px;
+  padding: 0px 20px 20px 20px;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.dashboard > h2 {
+  padding-top: 20px;
+  margin-bottom: 25px;
+  position: sticky;
+  top: 0;
+  background-color: white; /* You may need to adjust this background color based on your design */
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  border: 1px solid;
+  margin: auto;
+  padding: 5px;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nameDash {
+  width: 33%;
+  text-align: left;
+}
+
+.buttonDetail {
+  font-size: 20px;
+  width: 8rem;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.buttonDetail > a {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.detail {
+  width: 80%;
+  height: 430px;
+  padding: 0px 20px 20px 20px;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
+  padding-top: 18px;
+}
+
+.detailHeadding {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 4px;
+  margin-bottom: 25px;
+}
+
+.detailHeadding > h3 {
+  margin: auto;
+  text-align: center;
+}
+
+.detailHeadding > div > button {
+  background-color: rgb(32, 223, 32);
+  color: white;
+  font-weight: 500;
+  padding: 12px;
+  border: 0;
+  width: 6rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.instruction {
+  text-align: justify;
+}
+.instruction > p {
+  margin-bottom: 10px;
+}
+.instruction > p + div {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.red {
+  background-color: red !important;
+}
+
+.yellow {
+  background-color: yellow !important;
+  color: red !important;
+}

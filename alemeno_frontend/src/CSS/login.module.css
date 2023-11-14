@@ -1,0 +1,18 @@
+.loginForm {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 45%;
+  margin: auto;
+  margin-top: 55px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Add this if you want to center the form horizontally */
+.loginForm form {
+  width: 100%;
+  text-align: center;
+}
+
